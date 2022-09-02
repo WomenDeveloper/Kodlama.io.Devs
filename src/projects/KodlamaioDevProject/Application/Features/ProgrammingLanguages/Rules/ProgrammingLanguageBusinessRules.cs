@@ -27,5 +27,13 @@ namespace Application.Features.ProgrammingLanguages.Rules
                  throw new BusinessException("Brand name exists.");
             }
         }
+        public async Task ProgrammingLanguageExistsWhenRequest(int id)
+        {
+            ProgrammingLanguage? programmingLanguage = _programmingLanguageRepository.GetAsync(pl => pl.Id == id).Result;
+            if (programmingLanguage==null)
+            {
+                throw new BusinessException("Brand name exists.");
+            }
+        }
     }
 }
