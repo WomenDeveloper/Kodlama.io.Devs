@@ -12,7 +12,7 @@
     "WebAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:23002",
+      "applicationUrl": "http://localhost:58563",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

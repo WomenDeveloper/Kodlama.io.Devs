@@ -10,14 +10,46 @@
     <None Remove="Services\" />
     <None Remove="Features\" />
     <None Remove="Services\Repositories\" />
+    <None Remove="Features\ProgrammingLanguages\" />
+    <None Remove="Features\ProgrammingLanguages\Commands\" />
+    <None Remove="Features\ProgrammingLanguages\Constants\" />
+    <None Remove="Features\ProgrammingLanguages\Dtos\" />
+    <None Remove="Features\ProgrammingLanguages\Models\" />
+    <None Remove="Features\ProgrammingLanguages\Queries\" />
+    <None Remove="Features\ProgrammingLanguages\Rules\" />
+    <None Remove="Features\ProgrammingLanguages\Commands\CreateProgrammingLanguage\" />
+    <None Remove="MediatR" />
+    <None Remove="Microsoft.Extensions.DependencyInjection" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="AutoMapper" />
+    <None Remove="Features\ProgrammingLanguages\Profiles\" />
+    <None Remove="FluentValidation" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Features\" />
     <Folder Include="Services\Repositories\" />
+    <Folder Include="Features\ProgrammingLanguages\" />
+    <Folder Include="Features\ProgrammingLanguages\Commands\" />
+    <Folder Include="Features\ProgrammingLanguages\Constants\" />
+    <Folder Include="Features\ProgrammingLanguages\Dtos\" />
+    <Folder Include="Features\ProgrammingLanguages\Models\" />
+    <Folder Include="Features\ProgrammingLanguages\Queries\" />
+    <Folder Include="Features\ProgrammingLanguages\Rules\" />
+    <Folder Include="Features\ProgrammingLanguages\Commands\CreateProgrammingLanguage\" />
+    <Folder Include="Features\ProgrammingLanguages\Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\corePackages\Core.Persistence\Core.Persistence.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.2.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 </Project>
